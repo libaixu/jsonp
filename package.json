@@ -1,5 +1,5 @@
 {
-  "name": "jsonp",
+  "name": "g-jsonp",
   "version": "0.0.1",
   "description": "jsonp",
   "main": "src/index.js",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/libaixu/jsonp/issues"
   },
-  "homepage": "https://github.com/libaixu/jsonp#readme"
+  "homepage": "https://github.com/libaixu/jsonp#readme",
+  "dependencies": {
+    "user": "0.0.0"
+  }
 }

@@ -2,14 +2,15 @@
 simple、zero-configration jsonp
 
 ### install jsonp
+```js
+npm i g-jsnop
 ```
-npm i jsnop
-```
+~~**CDN** - https://unpkg.com/g-jsonp/release/main.js~~
 
 ### use
 
 ```js
-import jsonp from 'jsonp'
+import jsonp from 'g-jsonp'
 
 jsonp(url, options, callback)
 ```
@@ -22,3 +23,12 @@ jsonp(url, options, callback)
   - **prefix** callback name prefix (default __jp) example(http://example.com?callback=__jp(number increase))
   - **name** callback name(default __jp(number increase)) example(http://example.com?callback=__jp(0|1|2|3...))
 - callback(function)
+
+```js
+jsonp('http://example.com', (err, data) => {
+  if (err) {}
+  if (data) {}
+})
+```
+
+github(https://github.com/libaixu/jsonp)
