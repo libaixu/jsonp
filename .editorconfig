@@ -1,0 +1,15 @@
+root = true;
+
+[*.js]
+charset = urf-8;
+
+[*.{html, js}]
+indent_style = space;
+indet_size = 2;
+
+[*.{js, html}]
+end_of_line = lf;
+insert_final_newline = ture;
+
+[*.{html, js}]
+trim_trialing_whitesapce = true;
