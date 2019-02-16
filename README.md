@@ -1,4 +1,4 @@
-# jsonp
+# g-jsonp
 simple、zero-configration jsonp
 
 ### install jsonp
@@ -23,6 +23,8 @@ jsonp(url, options, callback)
   - **prefix** callback name prefix (default __jp) example(http://example.com?callback=__jp(number increase))
   - **name** callback name(default __jp(number increase)) example(http://example.com?callback=__jp(0|1|2|3...))
 - callback(function)
+
+The callback is called with ```err, data```
 
 ```js
 jsonp('http://example.com', (err, data) => {
